@@ -35,4 +35,11 @@ obwod_r = 4 * a
 pole_r = (a * h)
 print("Obwod rombu wynosi " + str(obwod_r) + ", a pole " + str(pole_r) + ".")
 
+# koło
+
+r = 4
+obwod_k = 2 * 3.14 * r
+pole_k = r * r * 3.14
+print("Obwod koła wynosi " + str(obwod_k) + ", a pole " + str(pole_k) + ".")
+
 
