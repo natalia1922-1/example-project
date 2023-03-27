@@ -1,17 +1,5 @@
-# kwadrat
-
-a = 10
-
-obwod = a * 4
-
-pole = a * a
-
-print("Obwod kwadratu wynosi " + str(obwod) + ", a pole " + str(pole) + ".")
-
-# obwod kwadratu wynosi 40, a pole 100.
-
 # prostokat
-
+a = 10
 b = 5
 
 obwod_p = 2 * a + 2 * b
@@ -41,5 +29,16 @@ r = 4
 obwod_k = 2 * 3.14 * r
 pole_k = r * r * 3.14
 print("Obwod koła wynosi " + str(obwod_k) + ", a pole " + str(pole_k) + ".")
+
+# kwadrat
+
+a = 10
+
+obwod = a * 4
+
+pole = a * a
+
+print("Obwod kwadratu wynosi " + str(obwod) + ", a pole " + str(pole) + ".")
+
 
 
