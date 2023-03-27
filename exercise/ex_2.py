@@ -19,3 +19,13 @@ obwod_p = 2 * a + 2 * b
 pole_p = a * b
 
 print("Obwod prostokata wynosi " + str(obwod_p) + ", a pole " + str(pole_p) + ".")
+
+# trapez
+h = 4
+c = 5
+d = 6
+
+obwod_t = a + b + c + d
+pole_t = ((a + b) * h) / 2
+print("Obwod trapezu wynosi " + str(obwod_t) + ", a pole " + str(pole_t) + ".")
+
