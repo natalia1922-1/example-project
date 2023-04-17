@@ -16,18 +16,27 @@
 # liczba_studentow = len(studenci)
 # print("Liczba studentow wynosi:", liczba_studentow)
 
-# zadanie 1.4
+# # zadanie 1.4
+#
+# studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
+#
+# for x in studenci:
+#     print("Hello", x)
 
-studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
+# # zadanie 1.5
+#
+# liczba = 3
+# potega = 4
+#
+# wynik = liczba ** potega
+#
+# print("Wyniki wynosi ", wynik)
 
-for x in studenci:
-    print("Hello", x)
+# zadanie 1.6
 
-# zadanie 1.5
+ciag_znakow = "edbw(hdakqas(skqskahb))adwndwb(wgwidn()dsqwhjdw)"
+liczba_nawiasow_otwierajacych = ciag_znakow.count("(")
 
-liczba = 3
-potega = 4
+print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
 
-wynik = liczba ** potega
 
-print("Wyniki wynosi ", wynik)
