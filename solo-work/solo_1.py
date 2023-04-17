@@ -5,7 +5,7 @@
 # print("{} {}".format(hello, student))
 
 # zadanie 1.2
-
+#
 # student = input("Wpisz swoje imie ")
 # print("Hello", student)
 
@@ -22,3 +22,12 @@ studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
 
 for x in studenci:
     print("Hello", x)
+
+# zadanie 1.5
+
+liczba = 3
+potega = 4
+
+wynik = liczba ** potega
+
+print("Wyniki wynosi ", wynik)
